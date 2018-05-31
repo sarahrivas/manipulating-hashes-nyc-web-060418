@@ -18,10 +18,12 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
         value.each do |flavor|
           if flavor == "strawberry"
-            delete
-    
-
-
+            value.delete(flavor)
+          end  
+        end  
+      end
+    end
+  end
   #remember to return your newly altered contacts hash!
   contacts
 end
