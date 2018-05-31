@@ -10,5 +10,5 @@ value_arr = []
 groceries.collect do |key, value|
   value_arr << value
   end 
-  value_arr
+  value_arr.flatten
 end
